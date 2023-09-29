@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>splitter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+  <h1>Tip Calculator</h1>
+
+
+  <img  src="tip-calculator-app-main/images/icon-dollar.svg" input type="number" id="billAmount" placeholder="Bill amount">
+ 
+    <input type="number" id="billAmount" placeholder="Bill amount">
+    <div id="Buttons">
+      <div class="tip-column">
+        <button type="button" >5%</button>
+        <button type="button" >10%</button>
+        <button type="button" >15%</button>
+      </div>
+      <div class="tip-column">
+        <button type="button" >25%</button>
+        <button type="button" >50%</button>
+        <button type="button" >Custom</button>
+      </div>
+    </div>
+    <input type="number" id="customTipPercentage" style="display: none;">
+    <input type="number" id="numberOfPeople" placeholder="Number of people (optional)">
+    <input type="submit" value="Calculate">
+
+    <button type="button" >Tip amount</button>
+        <button type="button" >50%</button>
+        <button type="button" >Custom</button>
+  </div>
+
+  <div id="results">
+    <p>Tip amount: <span id="tipAmount"></span></p>
+    <p>Total: <span id="total"></span></p>
+    <p>Per person: <span id="perPerson"></span></p>
+  </div>
+</body>
+</html>
